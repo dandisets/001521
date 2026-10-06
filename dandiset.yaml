@@ -24,8 +24,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured: []
 citation: Silkuniene, Giedre; Semenov, Iurii; Pakhomov, Andrei (2026) Threshold Characterization
-  of Ca2+ Uptake in CHO Cells Following 1-µs Electroporation Pulses (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001521/draft
+  of Ca2+ Uptake in CHO Cells Following 1-µs Electroporation Pulses (Version 0.261006.1845)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001521/0.261006.1845
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -55,21 +55,35 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-07-01T14:36:27.179416+00:00'
+datePublished: '2026-10-06T18:45:41.414173+00:00'
 description: This experiment aimed to determine the threshold for calcium uptake in
   CHO cells subjected to 1-µs electric pulses. Cells were loaded with 2.5 µM Fluo-4,
   a Ca2+-sensitive dye, for 30 minutes in the dark. Fluo-4 fluorescence was excited
   using a FITC cube and a CoolLED illumination system. Time-lapse imaging was conducted
   at 1 frame per second for 5 minutes, with a single 1-µs pulse of varying amplitude
   applied 1 minute after the start of recording.
+doi: 10.48324/dandi.001521/0.261006.1845
 ethicsApproval: []
-id: DANDI:001521/draft
+id: DANDI:001521/0.261006.1845
 identifier: DANDI:001521
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001521/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001521/0.261006.1845/assets.yaml
 name: Threshold Characterization of Ca2+ Uptake in CHO Cells Following 1-µs Electroporation
   Pulses
+publishedBy:
+  endDate: '2026-10-06T18:45:41.414173+00:00'
+  id: urn:uuid:847877ab-df54-4e05-aa0b-cfc83ab5ae4e
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-06T18:45:41.414173+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5c5323bc-4be5-4073-a0fe-cef5c9f2102f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1016/j.bioelechem.2026.109283
   name: Sub-microsecond optical measurements of cell membrane charging and lesioning
@@ -80,8 +94,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
-url: https://dandiarchive.org/dandiset/001521/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001521/0.261006.1845
+version: 0.261006.1845
 wasGeneratedBy:
 - identifier: 5R21EY034803
   name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
